@@ -1,0 +1,10 @@
+ sub  1,2,3 
+sr or 2,10,6
+sd add 1,1,2
+ beq 0,1,k
+ sw 1,2,s
+s add 1,1,1
+k nand 1,2,4
+p  add 1,2,4
+ j 6000000 #Error
+ halt

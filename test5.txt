@@ -1,0 +1,10 @@
+ lw 1,0,start #load
+ lui 2,2
+start or 1,1,2
+ beq 0,1,done
+ add 1,2,4
+ j start
+done halt
+five .fill 10
+ .fill done1 #Error
+ .space 3 

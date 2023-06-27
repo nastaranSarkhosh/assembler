@@ -1,0 +1,17 @@
+ sub  1,2,3 #d
+sr add 2,4,6
+sd add 1,1,2
+ beq 0,1,k
+s add 1,1,1
+k add 1,2,4
+p  add 1,2,4
+ j 6
+ j k
+ add 1,2,4
+ .fill 9
+ .space plk
+plk ori 2,1,k
+ ori 2,1,k
+su lui 1,10 
+ lw 2,1,s
+ halt
